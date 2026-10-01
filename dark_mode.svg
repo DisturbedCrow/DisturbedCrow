@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1040px" height="530px" font-size="15px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #6e7f95;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1040px" height="530px" fill="#161b22" rx="15"/>
+<text x="15" y="30" fill="#a850d8" class="ascii" xml:space="preserve">
+<tspan x="15" y="30"/>
+<tspan x="15" y="50"/>
+<tspan x="15" y="70">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="90">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="110">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="130">   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="15" y="150">          @@@@@@@      @@@@@@@</tspan>
+<tspan x="15" y="170">          @@@@@@@      @@@@@@@</tspan>
+<tspan x="15" y="190">          @@@@@@@      @@@@@@@</tspan>
+<tspan x="15" y="210">          @@@@@@@      @@@@@@@</tspan>
+<tspan x="15" y="230">   @@@@@@@       @@@@@@       @@@@@@@</tspan>
+<tspan x="15" y="250">   @@@@@@@       @@@@@@       @@@@@@@</tspan>
+<tspan x="15" y="270">   @@@@@@@       @@@@@@       @@@@@@@</tspan>
+<tspan x="15" y="290">   @@@@@@@       @@@@@@       @@@@@@@</tspan>
+<tspan x="15" y="310">   @@@@@@@       @@@@@@       @@@@@@@</tspan>
+<tspan x="15" y="330">          @@@@@@@      @@@@@@@</tspan>
+<tspan x="15" y="350">          @@@@@@@      @@@@@@@</tspan>
+<tspan x="15" y="370">          @@@@@@@      @@@@@@@</tspan>
+<tspan x="15" y="390">          @@@@@@@      @@@@@@@</tspan>
+<tspan x="15" y="410">                 @@@@@@</tspan>
+<tspan x="15" y="430">                 @@@@@@</tspan>
+<tspan x="15" y="450">                 @@@@@@</tspan>
+<tspan x="15" y="470">                 @@@@@@</tspan>
+<tspan x="15" y="490"/>
+<tspan x="15" y="510"/>
+</text>
+<text x="390" y="30" fill="#c9d1d9" xml:space="preserve">
+<tspan x="390" y="30">vivek@github</tspan> ----------------------------------------------------------
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">India</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ......... </tspan><tspan class="value" id="age_data">on GitHub since Apr 2026</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">MemCode</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Founder &amp; CEO, MemCode</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Claude Code, VS Code</tspan>
+<tspan x="390" y="150" class="cc">. </tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> . </tspan><tspan class="value">Python, TypeScript, Dart, JavaScript</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> . </tspan><tspan class="value">AI agents, memory systems, Flutter</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Platforms</tspan>:<tspan class="cc"> . </tspan><tspan class="value">Linux, Android, iOS, Web</tspan>
+<tspan x="390" y="230" class="cc">. </tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Work</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">MemCode (memcode.in)</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Work</tspan>.<tspan class="key">Projects</tspan>:<tspan class="cc"> . </tspan><tspan class="value">ai-defense-lab, Babynest, safegrid, payapp</tspan>
+<tspan x="390" y="310">- Contact</tspan> -------------------------------------------------------------
+<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">@DisturbedCrow</tspan>
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">India</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">memcode.in</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Org</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">MemCode</tspan>
+<tspan x="390" y="430">- GitHub Stats</tspan> --------------------------------------------------------
+<tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............ </tspan><tspan class="value" id="repo_data">7</tspan> | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............ </tspan><tspan class="value" id="star_data">0</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ...... </tspan><tspan class="value" id="follower_data">2</tspan>
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Contributions</tspan>.<tspan class="key" id="contributions_year">2026</tspan>:<tspan class="cc" id="contributions_data_dots"> ........................ </tspan><tspan class="value" id="contributions_data">259</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Public Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ........... </tspan><tspan class="value" id="commit_data">603</tspan> | <tspan class="key">Pull Requests</tspan>:<tspan class="cc" id="pr_data_dots"> .... </tspan><tspan class="value" id="pr_data">8</tspan>
+<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Merged Pull Requests</tspan>:<tspan class="cc" id="merged_pr_data_dots"> ..................... </tspan><tspan class="value" id="merged_pr_data">4</tspan>
+</text>
+</svg>

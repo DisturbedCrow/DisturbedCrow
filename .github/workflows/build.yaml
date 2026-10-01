@@ -1,0 +1,42 @@
+name: README build
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: cache/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r cache/requirements.txt
+      - name: Update profile stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN || github.token }}
+          USER_NAME: ${{ secrets.USER_NAME || 'DisturbedCrow' }}
+          PROFILE_CONTRIBUTIONS_YEAR: ${{ vars.PROFILE_CONTRIBUTIONS_YEAR || '' }}
+          PROFILE_CONTRIBUTIONS: ${{ vars.PROFILE_CONTRIBUTIONS || '0' }}
+        run: python today.py
+      - name: Commit updated stats
+        run: |-
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add dark_mode.svg light_mode.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Update profile stats"
+            git push
+          fi
